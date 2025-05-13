@@ -5,7 +5,6 @@ from pydub import AudioSegment
 import random
 import ctypes
 
-
 myappid = 'yuri.suiwu.audio.processor.1.0'
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
